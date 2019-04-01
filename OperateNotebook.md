@@ -128,6 +128,17 @@ Eclipse默认自动编译，而idea默认手动编译，因此idea需要修改�
 然后，CTRL+ALT+SHIFT+/ 组合键打开 Maintenance窗口选择Registry... ,找到compiler.automake.allow.when.app.running选项，打勾开启运行时编译功能
 ###################################热部署结束################################
 
+###########################github 提交代码###################################################
+1、下载git,网址：https://git-scm.com/downloads
+2、打开git.bash git命令行，cd进入你的项目
+3、git init 生成.git文件（生成本地的git管理）
+4、git add 将所有的项目文件添加到仓库
+5、git commit -m "first commit" 提交代码
+6、git remote add origin https://github.com/OrangeMaid/NewEraPublicGoodBlog.git
+7、git push -u origin master，把代码上传到GitHub，如果报错，可以先拉代码，获得最新代码：git pull origin master
+参考网址：https://www.cnblogs.com/wangmingshun/p/5424767.html
+#########################################git hub 提交代码结束#############################################
+
 图床网址：
 https://imgchr.com/
 
